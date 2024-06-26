@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def load_data(file_name):
-    folder_path = "/home/myuser/ucr_archive/"
+    folder_path = "ucr_archive/"
     folder_path += file_name + "/"
 
     train_path = folder_path + file_name + "_TRAIN.tsv"

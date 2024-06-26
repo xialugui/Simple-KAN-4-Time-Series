@@ -6,12 +6,12 @@ hydra :
 
 
 task_to_solve: "classification"
-dataset: "ArrowHead"
+dataset: "ECGFiveDays"
 output_dir: "results/"
 width: Null
 steps: 20
 k: 3
 grid: 3
 random_state: Null
-get_formulas: False
+get_formulas: True
 runs: 5

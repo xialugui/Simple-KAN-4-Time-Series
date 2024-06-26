@@ -12,7 +12,7 @@ from utils.utils import load_data, create_directory
 from sklearn.utils import check_random_state
 
 
-@hydra.main(config_name="config_hydra.yaml", config_path="config")
+@hydra.main(config_name="config_hydra.yaml", config_path="config",version_base=None)
 def main(args: DictConfig):
     with open("config.yaml", "w") as f:
         OmegaConf.save(args, f)
